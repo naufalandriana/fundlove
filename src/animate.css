@@ -1,0 +1,13 @@
+/* Menambahkan durasi animasi pada class animate-bounce */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 2s ease-in-out infinite; /* Durasi 2 detik */
+}

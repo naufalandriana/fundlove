@@ -1,0 +1,11 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahan (opsional tapi bagus) untuk memastikan semua elemen mengisi tinggi halaman */
+html, body, #root {
+  height: 100%;
+}
