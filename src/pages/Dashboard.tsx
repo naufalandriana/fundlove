@@ -338,7 +338,7 @@ const Dashboard: React.FC<DashboardProps> = ({ user, onLogout }) => {
       const { data: targetData, error: targetError } = await supabase
         .from('targets')
         .select('*')
-        .order('updated_at', { ascending: false })
+        .order('updated_at', { ascending: true })
         .limit(1)
         .single();
 
@@ -765,5 +765,6 @@ const Dashboard: React.FC<DashboardProps> = ({ user, onLogout }) => {
     </div>
   );
 };
+
 
 export default Dashboard;
