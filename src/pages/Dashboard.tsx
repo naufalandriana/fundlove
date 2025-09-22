@@ -452,7 +452,7 @@ const Dashboard: React.FC<DashboardProps> = ({ user, onLogout }) => {
           updated_at: new Date().toISOString()
         })
         .eq('id', targetId)
-        .eq('user_id', user.id); // ⬅️ cek user
+        
 
       if (error) throw error;
     } else {
@@ -768,3 +768,4 @@ const Dashboard: React.FC<DashboardProps> = ({ user, onLogout }) => {
 
 
 export default Dashboard;
+
