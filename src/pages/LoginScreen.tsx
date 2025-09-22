@@ -155,11 +155,12 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
 
         {/* Footer */}
         <div className="text-center mt-8">
-          <p className="text-white/60 text-sm">Versi 1.0 - Powered by Supabase</p>
+          <p className="text-white/60 text-sm">Versi 1.0</p>
         </div>
       </div>
     </div>
   );
 };
+
 
 export default LoginScreen;
